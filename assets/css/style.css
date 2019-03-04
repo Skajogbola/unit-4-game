@@ -1,0 +1,63 @@
+body{
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px;
+}
+h1 {
+    background-color: orangered;
+    color: white; 
+    width: 350px;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 50px;
+    text-align: left;
+    padding-top: 15px;
+}
+span{
+    font-weight: bold;
+    text-emphasis: center;
+    font-size: 30px;
+}
+.row_message{
+    color: green;
+    background-color: cornsilk;
+    height: 400px;
+    width:500px;
+}
+.box1{
+    background-color: rgb(3, 58, 3);
+    float: left;
+    height: 100px;
+    width:200px;
+    margin-top: 15px;
+}
+.box2{
+    background-color: green;
+    float: left;
+    margin-top: 15px;
+    height: 100px;
+    margin-left: 10px;
+    width: 100px;
+}
+.image1 {
+    clear: both;
+} 
+#one, #two, #three, #four {
+    height: 50px;
+    width: 100px;
+    margin-top: 15px;
+}
+.userTotal {
+    background-color: rgb(43, 116, 43);
+    width: 300px;
+    margin-top: 15px;
+}
+.box3 {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(43, 116, 43);
+    margin-top: 10px;
+    
+}

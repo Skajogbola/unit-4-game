@@ -30,14 +30,14 @@ $( document ).ready(function () {
   }
 //Adding win to the userTotal.
 function won(){
-    $('#message').text("You Won!");
+    $('#message').text("You Won!!");
     wins++;
     $("#wins-text").text(wins);
     reset();  
 }
 //Adding loss to the userTotal.
 function lost(){
-    $('#message').text("You Lose!");
+    $('#message').text("You Lost!!");
     losses++;
     $("#losses-text").text(losses);
     reset(); 

@@ -39,7 +39,8 @@ span{
     margin-top: 15px;
     height: 150px;
     margin-left: 10px;
-    width: 125px;
+    width: 150px;
+    padding-top: 10px;
 }
 .image1 {
     clear: both;

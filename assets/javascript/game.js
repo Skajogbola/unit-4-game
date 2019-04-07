@@ -8,6 +8,14 @@ $( document ).ready(function () {
   var gem3 = Math.floor(Math.random()*11+1)
   var gem4 = Math.floor(Math.random()*11+1)
 
+  //create function gem
+  function gem(){
+    var gem1 = Math.floor(Math.random()*11+1);
+    var gem2 = Math.floor(Math.random()*11+1);
+    var gem3 = Math.floor(Math.random()*11+1);
+    var gem4 = Math.floor(Math.random()*11+1);
+  }
+
   var wins = 0;
   var losses = 0;
   var userTotal = 0;
@@ -20,10 +28,7 @@ $( document ).ready(function () {
   function reset(){
     randomNumber = Math.floor(Math.random()*101+19);
     console.log("This is the computer guess: " + randomNumber)
-    gem1 = Math.floor(Math.random()*11+1);
-    gem2 = Math.floor(Math.random()*11+1);
-    gem3 = Math.floor(Math.random()*11+1);
-    gem4 = Math.floor(Math.random()*11+1);
+    gem();
     userTotal = 0;
     $("#finalTotal").text(userTotal);
     $('#computerGuess').text(randomNumber);

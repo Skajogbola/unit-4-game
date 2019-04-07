@@ -15,4 +15,5 @@ The player wins if their total score matches the random number from the beginnin
 The player loses if their score goes above the random number. 
  
 Technical approach:
+
 The app dynamically update the HTML pages with the jQuery library.
